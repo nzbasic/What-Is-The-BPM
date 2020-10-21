@@ -10,4 +10,4 @@ Libraries needed: jnativehook-2.1.0, org.json, javafx(version14)
 
 ![alt-text](https://cdn.discordapp.com/attachments/627267590862929961/768276532468383805/unknown.png "Bpm Tracker")
 
-[![Test](http://img.youtube.com/vi/1WBCtb6Q4kI/0.jpg)](http://www.youtube.com/watch?v=1WBCtb6Q4kI)
+[Click here to see a live demo of the app](https://www.youtube.com/watch?v=1WBCtb6Q4kI&feature=youtu.be)

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="113.0" prefWidth="303.0" style="-fx-background-color: #000000; -fx-border-radius: 5; -fx-border-color: #00AEEF; -fx-border-width: 5;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.WhatIsTheBpm.Controllers.SceneController">
+   <children>
+      <AnchorPane fx:id="keyZ" layoutX="14.0" layoutY="14.0" onMouseClicked="#changeKeyZ" prefHeight="85.0" prefWidth="80.0" style="-fx-background-color: #aaaaaa; -fx-opacity: 0.2;" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <children>
+            <Label fx:id="key1Label" alignment="CENTER" layoutX="26.0" layoutY="29.0" text="Z" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font size="46.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="keyX" layoutX="112.0" layoutY="18.0" onMouseClicked="#changeKeyX" prefHeight="77.0" prefWidth="80.0" style="-fx-background-color: #aaaaaa; -fx-opacity: 0.2;" AnchorPane.bottomAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <children>
+            <Label fx:id="key2Label" alignment="CENTER" text="X" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font size="46.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="205.0" layoutY="19.0" prefHeight="75.0" prefWidth="80.0">
+         <children>
+            <Label fx:id="bpm" alignment="CENTER" text="Label" textFill="#00aeef" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutY="-31.0" text="BPM" textFill="#00aeef" AnchorPane.bottomAnchor="31.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-31.0">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+            <Label fx:id="mapBpm" layoutX="52.0" layoutY="53.0" prefHeight="31.0" prefWidth="37.0" text="0" textFill="#00aeef">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Label>
+            <Label layoutX="-7.0" layoutY="53.0" text="Target" textFill="#00aeef">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

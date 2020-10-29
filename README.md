@@ -1,6 +1,6 @@
 # What-Is-The-BPM
 
-Work in progress
+This App is now deprecated, please see the newer version written in C# [HERE](https://github.com/nzbasic/WhatsTheBpm)
 
 This program displays the current BPM you are streaming or tapping at for osu. It also displays the current BPM of the map you are playing as a target, using data collected from a process memory finder.\
 See these awesome projects: [cadon0 ProcessMemoryDataFinder](https://github.com/cadon0/ProcessMemoryDataFinder) and [Piotrekol ProcessMemoryDataFinder](https://github.com/Piotrekol/ProcessMemoryDataFinder) (Required to run the app)
